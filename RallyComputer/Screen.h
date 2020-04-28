@@ -19,7 +19,7 @@ class Screen {
         };
 
         struct Cfg {
-            uint8_t button_pins[BUTTON_POS_SIZE] = {4, 5, 6, 7};
+            uint8_t button_pins[BUTTON_POS_SIZE] = {6, 7, 4, 5};
         };
         Screen(const Distance* segment,
                 const Distance* total,
